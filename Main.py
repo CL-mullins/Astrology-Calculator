@@ -1,3 +1,4 @@
+
 #Need to create variables for month and date
 #Input function that asks user for birth day and birth month
     #Compares birth day and month to data
@@ -8,7 +9,8 @@
 #rather than a 3 day long project
 
 
- 
+print("Welcome to the Astrological Calculator!") 
+print("This program will allow you to figure out where the Sun was at the time you were born!")
 user_birthMonth = input("What month were you born in? : ")
 user_birthDate = input("What day were you born? : ")
 
@@ -17,6 +19,7 @@ if user_birthMonth == "January":
     month = 1
     if int(user_birthDate) <= 19:
         print("You are a Capricorn")
+
     if int(user_birthDate) >= 20:
         print("You are an Aquarius")
 
@@ -96,5 +99,7 @@ if user_birthMonth == "December":
     if int(user_birthDate) <= 19:
         print("You are a Sagittarius")
     if int(user_birthDate) >= 20:
-        print("You are a Capricorn")                                              
+        print("You are a Capricorn")     
+                                    
 #def sunSign(user_birthMonth,userbirthDay)
+
